@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 30px;
+    background: rgb(3, 28, 41);
+}
+
+.rooms-rate_text{
+    padding: 3px;
+    margin-left: 33rem;
+}
+.text-1{
+    margin-top: 1rem;
+}
+
+.text-primary{
+
+        font-family: Centaur;
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 93.75px;
+        letter-spacing: 0px;
+        align-items: normal;
+        color: rgb(201, 169, 106);
+}
+
+.dot{
+            font-family: Centaur;
+			font-size: 80px;
+			font-weight: 400;
+			line-height: 93.75px;
+			align-items: normal;
+			color: rgb(255, 255, 255);	
+}
+
+.text-1{
+     
+		font-family: Poppins;
+		font-size: 20px;
+		font-weight: 200;
+		letter-spacing: 0px;
+		color: rgb(255, 255, 255);
+		vertical-align: middle;
+		justify-content: flex-start;
+		width: 392px;
+		transform: translate(0px, 0px);
+		line-height: 23.4375px;
+		height: 97px;
+		left: 60px;
+		top: 241px;
+}
+
+.section-2{
+    padding: 3rem;
+}
+
+.row{
+    max-width: 71.25rem;
+    margin: 0 auto;
+  
+}
+.col-1-of-3{
+    width: 21.4rem;
+    float: left;
+}
+.col-1-of-3:not(:last-child){
+    margin-right: 3.5rem;
+}
+
+.card{
+    height: 32.5rem;
+    perspective: 148rem;
+    -moz-perspective: 148rem;
+    position: relative;
+  
+}
+.card .card__side{
+    height: 30.5rem;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1.4rem 3.9rem rgba(0, 0, 0, 0.164);
+    background:rgb(3, 28, 41) ;
+}
+
+
+.card .card__side--front{
+    background-color: white;
+}
+.card .card__side--back{
+    background-image: linear-gradient(to right bottom, rgb(16, 81, 116), rgb(3, 28, 41));
+    transform: rotateY(180deg);
+}
+
+
+.card:hover .card__side--front{
+    transform: rotateY(-180deg);
+}
+.card:hover .card__side--back{
+    transform: rotateY(0);
+}
+
+.card .card__side--front .card__picture{
+    background-size: cover;
+    height:19rem;
+    background-blend-mode: screen;
+}
+.card .card__side--front .card__picture--1{
+    background-image: url(./img/IMG-20200608-WA0008.jpg);
+}
+.card .card__side--front .card__picture--2{
+    background-image:  url(./img/IMG-20200608-WA0007.jpg);
+}
+.card .card__side--front .card__picture--3{
+    background-image: url(./img/IMG-20200608-WA0006.jpg);
+}
+.card .card__side--front .card__picture--4{
+    background-image: url(./img/IMG-20200608-WA0005.jpg);
+}
+.card .card__side--front .card__picture--5{
+    background-image: url(./img/IMG-20200608-WA0007.jpg);
+}
+.card .card__side--front .card__picture--6{
+    background-image: url(./img/013.jpg);
+}
+
+
+
+.card .card__side--front .card__heading{
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-family: Centaur;
+    text-transform: uppercase;
+    color: white;
+    text-align: right;
+    background: rgb(8, 53, 78);
+    
+}
+
+ul{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.63);
+    font-family: centaur;
+}
+
+.tb_1{
+    margin-left: 1.4rem;
+    padding: .15rem;
+}
+.tb_2{
+    margin-left: 2rem;
+     border-left: .7px solid rgba(201, 169, 106, 0.452);
+     padding-left: 1rem;
+     position: absolute;
+     right: 1rem;
+}
+
+.card__details {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: .7rem;
+    display: flex;
+    background:  rgb(8, 53, 78);
+    position: relative;
+}
+.card__details ol .new:not(:last-child){
+    border-bottom: 1px solid #eee;
+}
+
+.card__cta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card__cta .card__price-box{
+    text-align: center;
+    margin-bottom: 7rem;
+    color: white;
+}
+.card__cta .card__price-box .card__price-only{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.card__cta .card__price-box .card__price-value{
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+
+.btn:link,
+.btn:visited{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: bolder;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateX(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff 
+}
+
+
+
+.section-3{
+    position: relative;
+    top: 5rem;
+}
