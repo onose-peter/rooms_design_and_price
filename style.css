@@ -15,8 +15,10 @@ body{
 }
 
 .rooms-rate_text{
+    
     padding: 3px;
-    margin-left: 33rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
 }
 .text-1{
     margin-top: 1rem;
@@ -33,6 +35,15 @@ body{
         color: rgb(201, 169, 106);
 }
 
+.dot2{
+            font-family: 'Centaur';
+			font-size: 50px;
+			font-weight: 100;
+			line-height: 93.75px;
+			align-items: normal;
+			color: rgb(201, 169, 106);
+}
+
 .dot{
             font-family: Centaur;
 			font-size: 80px;
@@ -44,7 +55,7 @@ body{
 
 .text-1{
      
-		font-family: Poppins;
+		font-family: 'Poppins';
 		font-size: 20px;
 		font-weight: 200;
 		letter-spacing: 0px;
@@ -234,3 +245,34 @@ ul{
     position: relative;
     top: 5rem;
 }
+
+
+
+            @media screen and (max-width: 481px) {
+                body {
+                font-weight: 200;
+                font-size: 12px;
+                line-height: 1.7;
+                padding: 30px;
+                float: left;
+                padding: 0;
+                width: 94%;
+                margin: 3%;
+                }
+                
+                .test-1 {
+                  font-size: 12px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  float: left;
+                }
+                
+                
+                
+                .col {
+                display: block;
+                width: 400px;
+                height: 300px;
+                float: left;
+                }
+            }
