@@ -8,15 +8,15 @@
 body{
     font-family: 'lato', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.7;
-    padding: 30px;
+    padding: 1.875rem;
     background: rgb(3, 28, 41);
 }
 
 .rooms-rate_text{
-    padding: 3px;
-    margin-left: 33rem;
+    padding: 0.188rem;
+    margin-left: 28rem;
 }
 .text-1{
     margin-top: 1rem;
@@ -25,9 +25,9 @@ body{
 .text-primary{
 
         font-family: Centaur;
-        font-size: 80px;
+        font-size: 5rem;
         font-weight: 400;
-        line-height: 93.75px;
+        line-height: 0.368rem;
         letter-spacing: 0px;
         align-items: normal;
         color: rgb(201, 169, 106);
@@ -35,9 +35,9 @@ body{
 
 .dot{
             font-family: Centaur;
-			font-size: 80px;
+			font-size: 4rem;
 			font-weight: 400;
-			line-height: 93.75px;
+			line-height: 5.6rem;
 			align-items: normal;
 			color: rgb(255, 255, 255);	
 }
@@ -45,18 +45,16 @@ body{
 .text-1{
      
 		font-family: Poppins;
-		font-size: 20px;
+		font-size: 1.25rem;
 		font-weight: 200;
 		letter-spacing: 0px;
 		color: rgb(255, 255, 255);
 		vertical-align: middle;
-		justify-content: flex-start;
 		width: 392px;
-		transform: translate(0px, 0px);
-		line-height: 23.4375px;
-		height: 97px;
-		left: 60px;
-		top: 241px;
+		line-height: 1.465rem;
+		height: 6.063rem;
+		left: 3.75rem;
+		top: 15.063;
 }
 
 .section-2{
@@ -219,10 +217,6 @@ ul{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.btn:active {
-    transform: translateX(-1px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
 
 .btn-white {
     background-color: #fff 
@@ -234,3 +228,10 @@ ul{
     position: relative;
     top: 5rem;
 }
+
+
+
+
+
+
+

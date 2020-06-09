@@ -1,0 +1,214 @@
+/* for medium tab (for Potrait)*/ 
+@media (max-width: 991.98px){
+    .rooms-rate_text{
+        margin: auto;
+    }
+
+.card{
+    height: auto;
+    width: 110%;
+    position: relative;
+    margin-left: 5.5rem;
+    margin-bottom: 3rem;
+
+}
+.card .card__side{
+    height: auto;
+    position: relative;
+    border-radius: 3px;
+    background:rgbrgb(3, 28, 41) ;
+}
+
+.card .card__side--back{
+transform: rotateY(0);
+
+background: rgb(6, 65, 97) ;
+}
+
+
+.card:hover .card__side--front{
+transform: rotateY(0);
+}
+
+.card .card__side--front .card__picture{
+background-size: cover;
+height:19rem;
+background-blend-mode: screen;
+}
+
+.card .card__side--front .card__heading{
+text-align: center;
+}
+
+.card__details {
+display: block;
+width: 100%;
+font-size: 1.2rem;
+padding: .7rem;
+display: flex;
+background:  rgb(8, 53, 78);
+position: relative;
+}
+.card__details ol .new:not(:last-child){
+border-bottom: 1px solid #eee;
+}
+
+.card__cta{
+position: relative;
+top: 0;
+left: 0;
+transform: translate(0);
+width: 100%;
+padding: 0;
+}
+.card__cta .card__price-box{
+
+margin-bottom: 0;
+}
+.card__cta .card__price-box .card__price-only{
+font-size: 0;
+}
+
+.card__cta .card__price-box .card__price-value{
+font-size: 0;
+
+}
+
+.btn:link,
+.btn:visited{
+margin-left: 5.6rem;
+}
+.section-3{
+top: 0;
+}
+
+} 
+
+/* for medium tab (for Landscape) */
+@media (min-width: 768px) and (max-width :1024px) and (orientation: Landscape) {
+    .rooms-rate_text{
+        margin-left: 30px;
+    }
+    
+.card .card__side{
+    height: auto;
+    position: relative;
+    border-radius: 3px;
+    background:rgbrgb(3, 28, 41) ;
+}
+
+.card .card__side--back{
+transform: rotateY(0);
+
+background: rgb(6, 65, 97) ;
+}
+
+
+.card:hover .card__side--front{
+transform: rotateY(0);
+}
+
+.card .card__side--front .card__picture{
+background-size: cover;
+height:19rem;
+background-blend-mode: screen;
+}
+
+.card .card__side--front .card__heading{
+text-align: center;
+}
+
+
+.card__details {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: .7rem;
+    display: flex;
+    background:  rgb(8, 53, 78);
+    position: relative;
+    }
+    .card__details ol .new:not(:last-child){
+    border-bottom: 1px solid #eee;
+    }
+    
+    .card__cta{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0);
+    width: 100%;
+    padding: 0;
+    }
+    .card__cta .card__price-box{
+    margin-bottom: 0;
+    }
+
+    .card__cta .card__price-box .card__price-only{
+    font-size: 0;
+    }
+    
+    .card__cta .card__price-box .card__price-value{
+    font-size: 0;
+    
+    }
+    
+    .btn:link,
+    .btn:visited{
+    margin-left: 5.2rem;
+    }
+    .section-3{
+    top: 0;
+    }
+}
+
+
+/* for mobile devices */
+    
+@media (max-width: 757px){
+    .rooms-rate_text{
+        text-align: center;
+    }
+    .text-primary{
+        line-height: 5rem;
+    }
+    .text-1{
+		font-size: 1.4rem;
+		font-weight: 100;
+		letter-spacing: 1px;
+        position: relative;
+        left: -2.35rem;
+}
+    .card{
+        margin-left: -4rem;
+        width: 100%;
+    }
+
+ }
+
+
+/* 
+for ipad pro */ 
+
+ @media only screen and (min-width: 1024px) and (orientation: portrait){
+     .rooms-rate_text{
+         margin-left: 30px;
+     }
+
+     .card_move{
+        position: relative;
+        top: 2.9rem;
+    }
+    .card_move2{
+        padding-top: 3rem;
+        position: relative;
+        right: -3.3rem;
+        top: -2rem;
+    }
+    .card_move3{
+        padding-top: 12rem;
+    }
+    .card_move4{
+        padding-top: 12rem;
+    }
+ }
