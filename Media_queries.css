@@ -160,6 +160,23 @@ text-align: center;
     .section-3{
     top: 0;
     }
+
+    .card_move{
+        position: relative;
+        top: 6rem;
+    }
+    .card_move2{
+        padding-top: 3rem;
+        position: relative;
+        right: -3.3rem;
+        top: 3.2rem;
+    }
+    .card_move3{
+        padding-top: 12rem;
+    }
+    .card_move4{
+        padding-top: 12rem;
+    }
 }
 
 
